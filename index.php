@@ -21,3 +21,7 @@
 </div>
 
 <?php get_footer(); ?>
+
+<div class="container auto-section" id="">
+
+</div>

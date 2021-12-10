@@ -9,7 +9,7 @@
 //
 
 // Athena Framework
-@import './ucf-athena-framework/src/scss/framework';
+// @import './ucf-athena-framework/src/scss/framework';
 
 // import any other third-party styles here
 // ...
@@ -18,6 +18,8 @@
 //
 // Project-specific styles and overrides
 //
+@import 'legacy';
+@import 'custom';
 
 // Add/import your theme's custom styles here
 // ...
