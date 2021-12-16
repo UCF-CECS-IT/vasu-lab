@@ -13,7 +13,7 @@
 	'walker'          => new bs4Navwalker()
 ) );
 
-$headerImg = get_field()
+$headerImg = get_header_icon();
 
 ?>
 
@@ -29,7 +29,7 @@ $headerImg = get_field()
 			<div class="pb">
 				<!-- Title Block -->
 				<div id="title">
-					<img src="img/ucfemb.png" id="ucfemb">
+					<img src="<?php echo $headerImg; ?>" id="ucfemb">
 					<br>
 					<a href="?" id="titletext"><?php echo get_bloginfo( 'name' ); ?></a>
 				</div>

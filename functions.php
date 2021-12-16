@@ -8,6 +8,7 @@ define( 'VASU_THEME_JS_URL', VASU_THEME_STATIC_URL . '/js' );
 define( 'VASU_THEME_IMG_URL', VASU_THEME_STATIC_URL . '/img' );
 
 include_once 'includes/config.php';
+include_once 'includes/customizer.php';
 include_once 'includes/navbar.php';
 include_once 'includes/utilities.php';
 
